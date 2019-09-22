@@ -85,7 +85,7 @@ describe('User Reducer', () => {
 
       expect(result).toEqual({
         ...initialState,
-        error: undefined,
+        error: 'testing',
         loading: true
       });
     });
